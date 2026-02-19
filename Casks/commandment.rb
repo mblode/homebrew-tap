@@ -1,6 +1,6 @@
 cask "commandment" do
-  version "0.1.5"
-  sha256 "bc2128155f9fd1992ac7b636ddf8b24ab2af56347abcfbe0f4e66634ae711356"
+  version "0.1.6"
+  sha256 "cebc8b46865bd398d6a6adde9020c00dae1327f89ef73785837bb6b157d4b4e4"
 
   url "https://github.com/mblode/commandment/releases/download/v#{version}/Commandment-#{version}.dmg"
   name "Commandment"
@@ -8,6 +8,7 @@ cask "commandment" do
   homepage "https://github.com/mblode/commandment"
 
   depends_on macos: ">= :sequoia"
+  auto_updates true
 
   app "Commandment.app"
 
