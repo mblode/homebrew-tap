@@ -1,6 +1,6 @@
 cask "rubber-duck" do
-  version "0.1.13"
-  sha256 "f793eac0f96edb1795d473a1223fa2de3a9073b2d2431acba2bb67af4e621d04"
+  version "0.1.14"
+  sha256 "a8b45716943793177c541c2ed0ec399ea84fb7b3bc92d12c39b89b3fee80de4a"
 
   url "https://github.com/mblode/rubber-duck/releases/download/v#{version}/RubberDuck-#{version}.dmg"
   name "Rubber Duck"
@@ -11,9 +11,6 @@ cask "rubber-duck" do
   auto_updates true
 
   app "Rubber Duck.app"
-
-  binary "#{appdir}/Rubber Duck.app/Contents/MacOS/rubber-duck"
-  binary "#{appdir}/Rubber Duck.app/Contents/MacOS/rubber-duck", target: "rubber-duck-daemon"
 
   zap trash: [
     "~/Library/Preferences/co.blode.rubber-duck.plist",
