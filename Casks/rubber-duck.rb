@@ -1,6 +1,6 @@
 cask "rubber-duck" do
-  version "0.1.15"
-  sha256 "0b1c2b97f00b55c6d35109315b826e796c9da7fe97ce6d71562943c686c76ac3"
+  version "0.1.16"
+  sha256 "97790d65916ff25f5166dbfe29bd320856afb8f72b962d953642318ec904b842"
 
   url "https://github.com/mblode/rubber-duck/releases/download/v#{version}/RubberDuck-#{version}.dmg"
   name "Rubber Duck"
@@ -15,7 +15,7 @@ cask "rubber-duck" do
   zap trash: [
     "~/Library/Preferences/co.blode.rubber-duck.plist",
     "~/Library/Application Support/RubberDuck",
-    "/usr/local/bin/rubber-duck",
-    "/usr/local/bin/rubber-duck-daemon",
+    "/usr/local/bin/duck",
+    "/usr/local/bin/duck-daemon",
   ]
 end
