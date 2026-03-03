@@ -1,6 +1,6 @@
 cask "rubber-duck" do
-  version "0.1.18"
-  sha256 "7a66dd4c7d60b432f43e1bdd51c540fef6b3c5232c99bedec3f338d63a4c2c0b"
+  version "0.1.19"
+  sha256 "10f36e196d73225fb88c4e14a234f506221a0485135eedd37b2a54cca02776e9"
 
   url "https://github.com/mblode/rubber-duck/releases/download/v#{version}/RubberDuck-#{version}.dmg"
   name "Rubber Duck"
