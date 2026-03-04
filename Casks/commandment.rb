@@ -1,6 +1,6 @@
 cask "commandment" do
   version "0.1.12"
-  sha256 "0d87376c286948f2587472e6ddc996a7b7f17c00eb062e32424a5b92ba4058d2"
+  sha256 "329ce1c149f9576535d8d81d719d015ffbd5349b297b1675d3eddc85dc8c88f5"
 
   url "https://github.com/mblode/commandment/releases/download/v#{version}/Commandment-#{version}.dmg"
   name "Commandment"
