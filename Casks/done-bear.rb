@@ -1,12 +1,12 @@
 cask "done-bear" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.0.9"
+  version "1.0.10"
 
   if Hardware::CPU.arm?
-    sha256 "ff10de8a8d436395628691bf431a0ea95190969df44aab83304b756829bbfc17"
+    sha256 "8c6245ecab9c6e938784f7eef6754c6e1a2fcb99fde9c20b795a7ef77d3592a7"
   else
-    sha256 "522d7eeb123f8f062e19b84d9a62c33582b14eb70ceb452faa8d4173250ed151"
+    sha256 "81e576b71620aa7cbaf5f981d8c2286daee59fe5cfb68e0623aee6a0a20aec3b"
   end
 
   url "https://donebear.com/api/desktop/download?tag=v#{version}&asset=done-bear_#{version}_#{arch}.app.tar.gz"
