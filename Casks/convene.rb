@@ -1,10 +1,10 @@
 cask "convene" do
-  version "0.1.6"
-  sha256 "8fdbe93d7c84352b11050b700214858da474c7e52b601c6bf1ec802ca0fd8f30"
+  version "0.1.7"
+  sha256 "d55c80164e86e89018b528a228f730557158f682fb626ca28e1f9a6fbf14c4ea"
 
   url "https://github.com/mblode/convene/releases/download/v#{version}/Convene-#{version}.dmg"
   name "Convene"
-  desc "macOS meeting transcription app - BYO OpenAI API key"
+  desc "macOS meeting transcription app - BYO AssemblyAI and Anthropic API keys"
   homepage "https://github.com/mblode/convene"
 
   depends_on macos: ">= :sequoia"
