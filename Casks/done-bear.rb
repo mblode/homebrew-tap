@@ -1,15 +1,15 @@
 cask "done-bear" do
-  version "1.0.13"
+  version "1.0.14"
 
   on_arm do
-    sha256 "f45864aa8206f3454c4291ae8582e90f73c0ae38da66838443d4a1596b671fd7"
+    sha256 "20781854be3e4cad081bfcedaae0f168de00af31fd9badd9bd1f044032cc423d"
 
-    url "https://donebear.com/api/desktop/download?tag=v#{version}&asset=Done.Bear_1.0.13_aarch64.app.tar.gz"
+    url "https://donebear.com/api/desktop/download?tag=v#{version}&asset=Done.Bear_1.0.14_aarch64.app.tar.gz"
   end
   on_intel do
-    sha256 "3c4a1aa8a16f6919d50fa31ba8611e91a165f658357fa47d465ed192f921ddb4"
+    sha256 "2778b4480e295edb8cb20bdca3bb8aba823f9f216444623eabc6155e7720be74"
 
-    url "https://donebear.com/api/desktop/download?tag=v#{version}&asset=Done.Bear_1.0.13_x64.app.tar.gz"
+    url "https://donebear.com/api/desktop/download?tag=v#{version}&asset=Done.Bear_1.0.14_x64.app.tar.gz"
   end
 
   name "Done Bear"
