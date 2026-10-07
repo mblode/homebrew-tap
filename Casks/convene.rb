@@ -1,6 +1,6 @@
 cask "convene" do
-  version "0.2.0"
-  sha256 "9570a5ae2753de8bf5ad1f1b25badf55d1e820194586e4f59990642a504299f2"
+  version "0.2.1"
+  sha256 "deca6e2cc3aa81754389ac7c596804d6329cde748d36dc623dfb4e8bcce40a61"
 
   url "https://github.com/mblode/convene/releases/download/v#{version}/Convene-#{version}.dmg"
   name "Convene"
